@@ -1,0 +1,4 @@
+Aby utworzyć serwer http wejdz do terminala i napisz: 
+http-server -p 80
+
+Domyślne przekierowanie z 127.0.0.1:80 jest na adres dev-test/

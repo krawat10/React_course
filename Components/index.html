@@ -1,47 +1,36 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
     <!-- podstawowe biblioteki reacta -->
     <script src="https://cdnjs.cloudflare.com/ajax/libs/react/15.6.1/react.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/react/15.6.1/react-dom.js"></script>
-
+    
     <!-- biblioteka niezbedna do obsugi JSX(parsuje JSX na JS) -->
     <script src="https://cdnjs.cloudflare.com/ajax/libs/babel-standalone/6.26.0/babel.js"></script>
-
+    
     <!-- Latest compiled and minified CSS -->
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u"
         crossorigin="anonymous">
-
+    
     <!-- Optional theme -->
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp"
         crossorigin="anonymous">
-
+    
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Document</title>
 </head>
-
 <body>
-    <div>
-        <div class="container">
-            <div class="row">
-                <div class="col-xs-12">
-                    <div id="root"></div>
-                </div>
-            </div>
-        </div>
-        <footer>
-            <div class="container">
-                <p>footer</p>
-            </div>
-        </footer>
-    </div>
-
+    <h1>Components</h1>
+    <div id="list"></div>
+    
+    <button type="button" id="show_more" class="btn btn-large btn-block btn-default">Show more</button>
+    
+    <!-- Dane -->
     <script type="text/javascript" src=".\courses_data.js"></script>
     <!-- Niezbedny typ do obsługi JSX -->
-    <script type="text/babel" src=".\Konstrukcja-Dekonstrukcja obiektów.jsx"></script>
+    <script type="text/babel" src=".\app.jsx"></script>
+    
 </body>
-
 </html>
